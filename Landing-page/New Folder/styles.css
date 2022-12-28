@@ -1,0 +1,260 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 350px;
+    color: white;
+    background-color: #1f2937;
+    font-size: 24px;
+    font-weight: bold;
+    gap: 545px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 35px;
+    padding-right: 400px;
+}
+
+a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.topinfo {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    width: 350px;
+    gap: 10px;
+    margin-left: 350px;
+    margin-top: 50px;
+    
+}
+
+.topfont {
+    display: flex;
+    
+    flex-direction: column;
+    
+    color: lightgray;
+    
+    font-size: 18px;
+    font-weight: bolder;
+    
+}
+
+.topbox {
+    display: flex;
+    
+
+    justify-content: center;
+    background-color: #1f2937;
+}
+
+.imageplace {
+    display: flex;
+    width: 800px;
+    height: 450px;
+    
+    justify-content: center;
+    align-items: center;
+    margin-right: 300px;
+    
+    
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 50px;
+    background-color: gray;
+}
+
+.signup {
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.randominfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.infotext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 36px;
+}
+
+.smolpages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7px;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: solid #3882f6;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.subtext1 {
+    display: flex;
+    border: solid green;
+}
+
+img {
+    
+width: 100%;
+height: 100%;
+  object-fit: fill
+}
+
+.boxtext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.page1 {
+    display: flex;
+    
+    margin-top: 7px;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: solid white
+}
+
+.quotebox {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 50px;
+}
+
+.quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    background-color: #e5e7eb;
+    font-size: 36px;
+    
+    font-style: italic;
+    width: 750px;
+    
+}
+
+.thorbox {
+    display: flex;
+    
+    justify-content: center;
+    padding-left: 550px;
+    font-weight: bolder;
+    font-size: large;
+    background-color: #e5e7eb;
+}
+
+.boxboxbox {
+    display: flex;
+    justify-content: center;
+}
+
+.boxbox {
+    display: flex;
+    
+    justify-content: center;
+    padding: 50px;
+    gap: 300px;
+    width: 1150px;
+    margin: 50px;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.actionbox {
+    display: flex;
+    flex-direction: column;
+    
+    color: #e5e7eb;
+    font-size: 26px;
+    font-weight: 900;
+}
+
+.actionbox2 {
+    display: flex;
+    padding-top: 7px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.signbutton {
+    display: flex;
+    
+}
+
+.signup2 {
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border-color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #1f2937;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 36px;
+    display: flex;
+    align-items: center;
+}
